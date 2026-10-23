@@ -77,9 +77,10 @@ export default async (req, context) => {
     const [qvec] = await embed([question]);
     const found = groupHits(search(index, qvec));
     const { system, user } = buildPrompt({ question, lang, site, hits: found, index });
-    const answer = await chat(system, user);
-    console.log(JSON.stringify({ ok: true, lang, site: slug, ms: Date.now() - started, q: question.slice(0, 200) }));
-    return json(200, { answer, sources: sourceList(found, index), lang });
+    const { text: answer, web } = await chat(system, user, found.length);
+    const sources = [...sourceList(found, index), ...web.map((w) => ({ n: w.n, title: w.title, page: null, official: false, web: true, url: w.url }))];
+    console.log(JSON.stringify({ ok: true, lang, site: slug, ms: Date.now() - started, webSources: web.length, q: question.slice(0, 200) }));
+    return json(200, { answer, sources, lang });
   } catch (e) {
     const code = e instanceof ServiceError ? e.code : 'internal';
     console.error(JSON.stringify({ ok: false, code, message: e.message, site: slug }));
