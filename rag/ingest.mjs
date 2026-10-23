@@ -4,7 +4,7 @@
 //   node rag/ingest.mjs --dry-run    show what would be indexed and the estimated cost; no API calls
 //   node rag/ingest.mjs --mock       build a fake index for testing without a key (never deploy it)
 //
-// Sources are listed in Jeju_4-3/sources/manifest.json. Each document is a UTF-8 .txt file where
+// Sources are listed in rag/sources/manifest.json (add them with rag/add-source.mjs). Each document is a UTF-8 .txt file where
 // pages are separated either by "[[page N]]" lines or by form feeds (what `pdftotext` produces).
 // Output: netlify/functions/ask/data/index.mjs
 
@@ -19,7 +19,7 @@ loadEnv();
 
 const { embed, quantise, CONFIG, isMock, hasHangul } = await import('../netlify/functions/ask/lib.mjs');
 
-const SOURCES = path.resolve(process.env.SOURCES_DIR || path.join(REPO_ROOT, '..', 'sources'));
+const SOURCES = path.resolve(process.env.SOURCES_DIR || path.join(REPO_ROOT, 'rag', 'sources'));
 const OUT = path.join(REPO_ROOT, 'netlify', 'functions', 'ask', 'data', 'index.mjs');
 const TARGET = { en: 1100, ko: 550 }; // characters per chunk
 
@@ -117,7 +117,8 @@ function chunkText(text, target) {
     len += s.length + 1;
   }
   if (cur.length) out.push(cur.join(' '));
-  return out.filter((c) => c.replace(/\W/g, '').length > 40);
+  // Count letters and digits in any script (\W alone would treat Korean as empty and drop it).
+  return out.filter((c) => c.replace(/[^\p{L}\p{N}]/gu, '').length > 40);
 }
 
 function splitLong(s, target) {

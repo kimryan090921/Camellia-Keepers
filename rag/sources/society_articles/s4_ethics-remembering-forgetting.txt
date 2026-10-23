@@ -1,0 +1,217 @@
+[[page 1]]
+The Ethics of Remembering vs. Forgetting:
+Camelia Keepers
+—
+Abstract
+This essay examines the philosophical and political tensions between collective remembering and
+institutionalised forgetting, using the Jeju April Third Incident (4.3 사건) as its primary case study.
+Situated within the broader discourse of transitional justice and memory ethics, the essay argues that
+deliberate amnesia imposed by state power constitutes not merely a historiographical failure but an ethical
+transgression against the dead, the surviving, and the civic community. Drawing upon scholarship from Paul
+Ricoeur, Aleida Assmann, and Henry Rousso, alongside empirical data from the Jeju 4.3 Research Institute
+and official government investigations, the essay contends that the belated acknowledgment of the Jeju massacre
+illuminates the moral stakes inherent in all politics of memory.
+I. Introduction: The Moral Architecture of Memory
+In his monumental work Memory, History, Forgetting (2004), Paul Ricoeur distinguished between two
+fundamentally different modalities of forgetting: the forgetting that is wrought by the erasure of
+traces, and the forgetting that is “reserved”—a latent preservation kept at the threshold of
+recollection, awaiting the conditions of its return. The Jeju April Third Incident (4·3 사건) belongs
+emphatically to the first category. What unfolded on the island of Jeju between April 3, 1948, and
+September 21, 1954, was not merely suppressed: it was actively unmade, its victims unnamed, its
+perpetrators shielded by the architecture of Cold War ideology and an authoritarian state’s
+self-serving historiography. That this silence persisted for nearly half a century renders the ethical
+question of memory not merely academic but urgently practical.
+The tension between remembering and forgetting is not, of course, unique to Korea. From the
+Armenian Genocide to the Rwandan massacres, from the desaparecidos of Argentina to the victims
+of South Africa’s apartheid state, the question of how societies reckon with mass atrocity is among
+the most contested domains of both ethics and politics. Yet Jeju occupies a singular place in this
+[[page 2]]
+global reckoning. It is a case in which the transition from silence to acknowledgment was
+extraordinarily slow—stretching across five decades of democratic and semi-democratic
+governance—and yet ultimately, if imperfectly, achieved. The Jeju 4.3 Special Act of 2000 and the
+subsequent governmental apology by President Roh Moo-hyun in 2003 represent landmark
+moments in the global history of transitional justice. They also provide an unusually
+well-documented record of what is lost, and what may be partially recovered, when collective
+memory is first extinguished and then, haltingly, rekindled.
+II. The Historical Contours of the Incident
+To understand the ethics of forgetting in Jeju’s case, one must first reckon with the magnitude of
+what was forgotten. The April Third Incident was precipitated by the uprising of the South Korean
+Workers’ Party (SKWP) on Jeju Island against the U.S. Military Government and the nascent south
+Korean state, which the insurgents viewed as an illegitimate anti-communist client regime. What
+began as a politically motivated insurrection was met with a counter-insurgency operation of
+overwhelming, disproportionate brutality.
+According to the 2003 findings of the Jeju 4.3 Incident Investigation Report—a document produced
+by the government-commissioned Truth Commission following the Special Act—between 14,000
+and 30,000 people perished during the seven-year period of violence, with most estimates
+converging around 25,000 to 30,000 fatalities (Jeju 4.3 Research Institute, 2003). Given Jeju’s
+population of approximately 300,000 at the time, this represents a death toll constituting roughly
+one-tenth of the entire island population. Entire mountain villages were razed. Over 70% of the
+island’s villages were either burned or destroyed (Merrill, 1989). Approximately 39,285 homes were
+reported destroyed and an estimated 230 villages were annihilated (Jeju 4.3 Peace Foundation, 2014).
+The commission’s report identified the south Korean state security forces and the Northwest Youth
+Corps (Seobuk Cheongnyeon-dan)—a paramilitary organisation of refugees from North Korea—as
+the primary perpetrators of civilian massacres, though it also documented killings carried out by the
+insurgents themselves. Crucially, the state’s own culpability was unambiguously acknowledged: “The
+government bears a great responsibility for the massacre of innocent people in the name of
+anti-communist operations” (Jeju 4.3 Incident Investigation Report, 2003, p. 536). This
+acknowledgement, belated as it was, is without precedent in South Korean political history and
+marks an epistemological rupture of considerable ethical significance.
+[[page 3]]
+Figure 1: Scale of the Jeju 4.3 Incident (1948–1954). Source: Jeju 4.3 Incident Investigation Report (2003); Jeju 4.3 Peace Foundation (2014).
+III. The Mechanics of Institutionalised Forgetting
+The suppression of Jeju’s memory was not accidental. It was systematic, deliberate, and enforced
+through law, ideology, and terror. Under the successive authoritarian governments of Syngman Rhee
+and then Park Chung-hee, any public discussion of the events of April Third was classified as
+proto-communist agitation. Survivors who spoke of the massacres were subject to surveillance,
+arrest, and in some documented cases, execution. The National Security Law, enacted in December
+1948 in the direct aftermath of the uprising, provided the juridical infrastructure for this
+suppression, criminalising speech and assembly deemed sympathetic to communism with penalties
+extending to capital punishment (Kim, 2000).
+The French historian Henry Rousso, writing of the Vichy syndrome in France—another case of
+prolonged collective denial—coined the concept of “amnesia as strategy” to describe the deliberate
+political instrumentalisation of forgetting (Rousso, 1991). In Jeju’s case, this strategic amnesia was
+particularly pronounced: survivors were compelled not merely to remain silent but to actively
+participate in the falsification of memory, lest they or their descendants be branded as communist
+sympathisers. The second-generation testimonies collected by the Jeju 4.3 Research Institute reveal a
+pervasive culture of intergenerational silence, in which grandparents refused to tell grandchildren the
+[[page 4]]
+fates of those who had disappeared, not out of indifference but out of a protective terror (Jeju 4.3
+Research Institute, 2008).
+This compelled silence is, ethically speaking, a form of secondary victimisation. Scholars of trauma
+studies have long established that the denial of narrative—the inability to bear witness, to name the
+dead, to speak the experience—constitutes a form of ongoing harm that may, in clinical terms, be as
+debilitating as the original trauma itself (Herman, 1992). When the state enforces this silence, the
+ethical weight of the forgetting is correspondingly intensified. It is no longer merely an absence of
+memory but an act of violence committed against the very capacity for memory.
+Figure 2: Timeline from Enforced Silence to Official Acknowledgement (1948–2021). Sources: Jeju 4.3 Incident Investigation Report (2003); Jeju 4.3
+Peace Foundation (2021).
+IV. The Ethics of Memory: Philosophical Foundations
+The philosophical literature on memory ethics has grown substantially since the 1990s, informed in
+large part by the proliferation of truth commissions, memorialisation projects, and demands for
+official apology across the post-Cold War world. Among the most influential frameworks is that of
+Aleida Assmann, whose distinction between “storage memory” (Speichergedächtnis) and “functional
+memory” (Funktionsgedächtnis) has proven particularly productive (Assmann, 2008). Storage
+memory is the archive: the passive repository of all that is preserved but not actively utilised in
+collective identity formation. Functional memory, by contrast, is the selective, narratively organised
+subset of the archive that a community actively employs in the construction of its self-understanding.
+[[page 5]]
+What makes the Jeju case ethically instructive is that the suppression of 4.3 operated at both levels
+simultaneously. The state not only prevented the archive from being formed—destroying
+documents, suppressing testimonies, forbidding scholarship—but also actively colonised functional
+memory by substituting an official narrative that cast the victims as communists deserving of their
+fate. This double operation is what distinguishes mere neglect from what the philosopher Margaret
+Urban Walker (2010) calls “moral repair” failure: the refusal to acknowledge wrongdoing in ways
+that would permit the wronged party’s moral standing to be restored.
+Ricoeur’s concept of “just memory” (mémoire juste) is equally pertinent here. Writing against both
+the excesses of traumatic over-remembering (which he associated with the kind of identity politics
+that militarises memory) and the pathology of forgetting, Ricoeur argued for a form of memory that
+is oriented by the obligation of justice: one that remembers specifically in order to acknowledge the
+claims of the victim upon the living (Ricoeur, 2004, pp. 86–92). On this account, the ethical
+imperative to remember Jeju is not merely sentimental or historiographical: it is a demand grounded
+in the basic moral requirement to treat persons—including the dead—as ends in themselves rather
+than as instruments of political narrative.
+V. The Politics of Acknowledgement: Transitional Justice and Its Limits
+The passage of the Jeju 4.3 Special Act in January 2000, followed by the publication of the official
+government investigation report in 2003, and President Roh Moo-hyun’s formal apology on April 3,
+2003—the fifty-fifth anniversary of the uprising—represented a tectonic shift in South Korea’s
+politics of memory. The apology was, by any comparative standard, remarkable: a sitting head of
+state assuming institutional responsibility for atrocities committed by preceding governments. In
+this, South Korea joined a small cohort of states—including Germany, Argentina, and South
+Africa—that have sought formal reconciliation with the victims of state violence through official
+acknowledgement rather than continued erasure.
+And yet the process has been neither linear nor uncontested. As recently as 2019, conservative
+political forces within South Korea sought to revise the 4.3 narrative, reintroducing language that
+framed the uprising primarily as a communist insurrection rather than as a civilian massacre. Such
+revisionism illustrates a pattern observed across multiple post-conflict societies: that the politics of
+memory is never settled but remains permanently vulnerable to the re-instrumentalisation of the
+past by competing political interests. According to survey data collected by the Jeju 4.3 Peace
+[[page 6]]
+Foundation in 2021, approximately 34.6% of South Koreans aged 18–29 reported having “little or
+no knowledge” of the Jeju incident, suggesting that even after two decades of official
+memorialisation, the transmission of historical consciousness across generations remains fragile (Jeju
+4.3 Peace Foundation, 2021).
+This fragility is not incidental. It reflects a structural tension within all transitional justice processes
+between what Naomi Roht-Arriaza and Javier Mariezcurrena (2006) have called “the justice
+cascade”—the expanding global norm of accountability for mass atrocity—and the persistent
+counter-pressure of national political interests that resist full reckoning. The Jeju 4.3 Peace Park,
+opened in 2008, and the annual April Third memorial ceremony, designated a national
+commemorative day in 2014, represent institutional achievements of considerable significance. Yet
+the memorialisation infrastructure remains politically contingent: its funding, its curriculum
+integration in schools, and its official framing have all been subject to revision under successive
+administrations.
+Figure 3: Public Awareness of the Jeju 4.3 Incident by Age Group, South Korea (2021). Source: Jeju 4.3 Peace Foundation Survey (2021).
+VI. Against the Pragmatics of Forgetting: A Defence of Memory
+[[page 7]]
+It would be intellectually dishonest not to acknowledge that there exists a serious philosophical
+tradition that counsels, under certain circumstances, a pragmatics of forgetting. Ernest Renan’s
+famous observation in “What Is a Nation?” (1882) that “every French citizen has to have forgotten
+the Night of Saint Bartholomew, or the massacres in the Midi in the thirteenth century” articulates
+the view that national cohesion may require the selective suppression of traumatic memory. More
+recently, scholars such as David Rieff (2016) have argued that “in praise of forgetting,” certain
+historical grievances, if perpetually rehearsed, fuel cycles of resentment and violence rather than
+contributing to reconciliation.
+These arguments, while not without merit in specific contexts, do not apply to the Jeju case—nor, it
+should be argued, to cases of state-perpetrated mass violence against civilian populations more
+generally. The pragmatics of forgetting presupposes that memory is already present and may be
+voluntarily relinquished in the service of a broader good. In Jeju’s case, memory was never freely
+given. It was violently taken. To advocate for forgetting in such a context is not to counsel prudent
+restraint but to ratify the original crime. As the political philosopher Avishai Margalit argued in The
+Ethics of Memory (2002), while individuals may choose to forgive and even forget personal wrongs, the
+community bears a special obligation to maintain what he terms “shared memory” of moral
+atrocities, precisely because such atrocities are directed not merely against individuals but against
+humanity’s shared moral order.
+Moreover, the empirical evidence from comparative transitional justice studies suggests that societies
+which undertake meaningful processes of truth-telling and acknowledgement are, over time, more
+rather than less stable than those which do not. A comparative analysis of twenty post-conflict
+societies by Tricia Olsen, Leigh Payne, and Andrew Reiter (2010) found that truth commissions
+combined with prosecutions produced the most robust improvements in human rights outcomes,
+while amnesty without acknowledgement correlated with higher rates of subsequent political
+violence. Memory, on this evidence, is not merely an ethical obligation to the dead: it is a
+precondition for the sustainable peace of the living.
+[[page 8]]
+Figure 4: Transitional Justice Mechanisms and Human Rights Outcomes across 20 Post-Conflict Societies. Source: Olsen, Payne & Reiter (2010).
+VII. Conclusion: The Unfinished Work of Memory
+The Jeju April Third Incident is, in the end, a story about the fragility and the necessity of truth.
+Approximately 14,000 to 30,000 people were killed in a period of seven years. For nearly half a
+century, their deaths were officially denied, their names erased from public record, their surviving
+families subjected to a regime of enforced silence that was itself a form of ongoing violence. The
+eventual acknowledgement—partial, contested, politically vulnerable—does not undo the harm. It
+cannot. The dead remain dead. The testimonies lost to a generation of fearful silence are
+irretrievable. What acknowledgement can do is something more modest but no less important: it can
+restore to the victims their moral standing as persons wronged, rather than enemies justly defeated.
+It can allow the living to grieve without shame. And it can, in Ricoeur’s formulation, provide the
+foundation for a “just memory” oriented not by vengeance but by the recognition of shared
+humanity across the boundary of death.
+The ethics of remembering, as illuminated by Jeju, is not the ethics of obsession or of grievance
+perpetually renewed. It is the ethics of witness: the refusal to allow the state’s violence to complete
+itself by also erasing the record of its commission. In a world in which such violence continues—in
+which states still massacre civilians and then mobilise the apparatus of official forgetting to protect
+[[page 9]]
+themselves from accountability—the lesson of Jeju is not merely historical. It is a standing
+obligation, renewed each April Third, to insist that what happened shall not be unmade.
+Bibliography
+Assmann, A. (2008). “Transforms between History and Memory.” Social Research, 75(1), 49–72.
+Herman, J. L. (1992). Trauma and Recovery: The Aftermath of Violence. Basic Books.
+Jeju 4.3 Incident Investigation Report. (2003). National Commission for the Investigation of the Truth about the Jeju 4.3
+Incident. Republic of Korea Government.
+Jeju 4.3 Peace Foundation. (2014). Jeju 4.3 Historical Data Collection. Jeju Special Self-Governing Province.
+Jeju 4.3 Peace Foundation. (2021). Survey on Public Awareness of the Jeju 4.3 Incident. Jeju 4.3 Peace Foundation
+Research Series.
+Jeju 4.3 Research Institute. (2003). Report on the Jeju April Third Incident. Jeju 4.3 Research Institute Press.
+Jeju 4.3 Research Institute. (2008). Testimonies of the Second Generation: Oral History Project. Jeju 4.3 Research
+Institute.
+Kim, D. C. (2000). The National Security Law and the Politics of Anti-Communism in South Korea. Seoul National
+University Press.
+Margalit, A. (2002). The Ethics of Memory. Harvard University Press.
+Merrill, J. (1989). Korea: The Peninsular Origins of the War. University of Delaware Press.
+Olsen, T., Payne, L., & Reiter, A. (2010). Transitional Justice in Balance: Comparing Processes, Weighing Efficacy. United
+States Institute of Peace Press.
+Renan, E. (1882). “Qu’est-ce qu’une nation?” Sorbonne lecture. Translated in Bhabha, H. (Ed.), Nation and Narration
+(1990). Routledge.
+Ricoeur, P. (2004). Memory, History, Forgetting. Trans. K. Blamey & D. Pellauer. University of Chicago Press.
+Rieff, D. (2016). In Praise of Forgetting: Historical Memory and Its Ironies. Yale University Press.
+Roht-Arriaza, N., & Mariezcurrena, J. (Eds.) (2006). Transitional Justice in the Twenty-First Century: Beyond Truth
+versus Justice. Cambridge University Press.
+Rousso, H. (1991). The Vichy Syndrome: History and Memory in France Since 1944. Trans. A. Goldhammer. Harvard
+University Press.
+Walker, M. U. (2010). What Is Reparative Justice? Marquette University Press.

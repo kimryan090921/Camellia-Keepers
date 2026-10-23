@@ -7,9 +7,12 @@
     "ingest": "node ingest.mjs",
     "dev": "node dev-server.mjs",
     "eval": "node eval/run.mjs",
-    "qr": "node make-qr.mjs"
+    "qr": "node make-qr.mjs",
+    "add": "node add-source.mjs",
+    "list": "node add-source.mjs --list"
   },
   "devDependencies": {
-    "qrcode": "^1.5.4"
+    "qrcode": "^1.5.4",
+    "pdfjs-dist": "^6.4.299"
   }
 }
