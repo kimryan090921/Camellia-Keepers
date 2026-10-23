@@ -1,0 +1,24 @@
+# Netlify settings for camelliakeepers.com
+
+[build]
+  publish = "."              # the site is the repository root, no build step
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# The question service lives at /api/ask (set in netlify/functions/ask/ask.mjs).
+# It needs OPENAI_API_KEY under Site configuration → Environment variables.
+
+# Don't serve the service's source files or local tools as web pages.
+[[redirects]]
+  from = "/netlify/*"
+  to = "/"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/rag/*"
+  to = "/"
+  status = 404
+  force = true

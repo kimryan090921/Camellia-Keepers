@@ -89,6 +89,8 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
 .nav-links a{color:var(--g500);text-decoration:none;font-family:'Inter',sans-serif;font-size:.72rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;transition:color .2s;cursor:pointer}
 .nav-links a:hover{color:var(--g900)}
 .nav-links a.nav-active{color:var(--g900);border-bottom:1px solid var(--gold)}
+.nav-links a.nav-ask{color:var(--crim)}
+.nav-links a.nav-ask:hover{color:var(--crim2)}
 .nav-join{padding:7px 18px;border:1px solid var(--bcrim);color:var(--crim) !important;transition:background .2s,border-color .2s !important}
 .nav-join:hover{background:rgba(154,28,46,.08) !important;border-color:var(--crim) !important}
 .nav-instagram{display:flex;align-items:center;color:var(--g500);transition:color .2s;padding:2px 4px;text-decoration:none}
@@ -259,7 +261,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
 /* ═══════════════════════════════════════════
    HOME — HERO SCROLL
 ═══════════════════════════════════════════ */
-#hero-scroll{position:relative}
+#hero-scroll{position:relative;overflow-x:clip} /* keeps the 680px hero glow from widening the page on phones */
 #hero-sticky{
   height:100vh;overflow:hidden;
   background:var(--bg);
@@ -598,7 +600,8 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
 ═══════════════════════════════════════════ */
 @media(max-width:900px){
   .site-nav{padding:14px 20px}
-  .nav-links{display:none}
+  .nav-links{display:flex;margin-left:auto;margin-right:14px}
+  .nav-links li:not(.nav-ask-item){display:none}
   #hero-cards{grid-template-columns:repeat(2,1fr)}
   .hero-card:nth-child(2){border-right:none}
   .hero-card:nth-child(3){border-top:1px solid var(--border)}
@@ -680,6 +683,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
     <li><a data-route="about"    onclick="navigate('about')">About Us</a></li>
     <li><a data-route="articles" onclick="navigate('articles')">Journals</a></li>
     <li><a data-route="archive"  onclick="navigate('archive')">Archive</a></li>
+    <li class="nav-ask-item"><a data-route="ask" href="/ask" class="nav-ask">Ask</a></li>
     <li><a data-route="join"     onclick="navigate('join')" class="nav-join" id="nav-join-link">Join Us</a></li>
   </ul>
   <div id="lang-toggle-wrap">
@@ -1118,6 +1122,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
       <li><a onclick="navigate('articles')">Journals</a></li>
       <li><a onclick="navigate('archive')">Archive</a></li>
       <li><a onclick="navigate('join')">Join Us</a></li>
+      <li><a href="/ask">Ask</a></li>
     </ul>
   </div>
   <div>
@@ -1310,7 +1315,7 @@ window.CK_LANG = 'en';
 
 const TRANSLATIONS = {
   en: {
-    navAbout:'About Us', navArticles:'Journals', navArchive:'Archive', navJoin:'Join Us',
+    navAbout:'About Us', navArticles:'Journals', navArchive:'Archive', navAsk:'Ask', navJoin:'Join Us',
     heroIntro:'A student community on Jeju Island committed to the proper remembrance and recognition of the April 3rd Incident.',
     heroDate:'In Memory of April 3rd, 1948 &nbsp;·&nbsp; Jeju, Korea',
     hcTitle1:'About Us', hcSub1:'Who we are and why we remember April Third.',               hcArrow1:'Read more →',
@@ -1391,7 +1396,7 @@ const TRANSLATIONS = {
     toastWelcome:'Welcome to Camellia Keepers.', toastArticle:'Article published.', toastArchiveUpload:'Document added to the Archive.',
   },
   ko: {
-    navAbout:'소개', navArticles:'저널', navArchive:'아카이브', navJoin:'함께하기',
+    navAbout:'소개', navArticles:'저널', navArchive:'아카이브', navAsk:'질문하기', navJoin:'함께하기',
     heroIntro:'제주도의 학생 공동체로, 4·3사건의 올바른 기억과 인식을 위해 헌신합니다.',
     heroDate:'1948년 4월 3일을 기억하며 &nbsp;·&nbsp; 대한민국 제주',
     hcTitle1:'소개',     hcSub1:'저희가 누구이며 왜 4월 3일을 기억하는지.',               hcArrow1:'더 읽기 →',
@@ -1472,7 +1477,7 @@ const TRANSLATIONS = {
     toastWelcome:'카멜리아 키퍼스에 오신 것을 환영합니다.', toastArticle:'글이 게시되었습니다.', toastArchiveUpload:'문서가 아카이브에 추가되었습니다.',
   },
   zh: {
-    navAbout:'关于我们', navArticles:'期刊', navArchive:'档案', navJoin:'加入我们',
+    navAbout:'关于我们', navArticles:'期刊', navArchive:'档案', navAsk:'提问', navJoin:'加入我们',
     heroIntro:'济州岛学生社区，致力于对4·3事件的正确记忆与认识。',
     heroDate:'铭记1948年4月3日 &nbsp;·&nbsp; 韩国济州',
     hcTitle1:'关于我们', hcSub1:'我们是谁，以及为何记忆四月三日。', hcArrow1:'了解更多 →',
@@ -1551,7 +1556,7 @@ const TRANSLATIONS = {
     toastWelcome:'欢迎加入茶花守护者。', toastArticle:'文章已发布。', toastArchiveUpload:'文档已添加到档案。',
   },
   es: {
-    navAbout:'Quiénes Somos', navArticles:'Revista', navArchive:'Archivo', navJoin:'Únete',
+    navAbout:'Quiénes Somos', navArticles:'Revista', navArchive:'Archivo', navAsk:'Preguntar', navJoin:'Únete',
     heroIntro:'Una comunidad estudiantil en la Isla de Jeju comprometida con el correcto recuerdo y reconocimiento del Incidente del 3 de Abril.',
     heroDate:'En memoria del 3 de abril de 1948 &nbsp;·&nbsp; Jeju, Corea',
     hcTitle1:'Quiénes Somos', hcSub1:'Quiénes somos y por qué recordamos el Tres de Abril.',      hcArrow1:'Leer más →',
@@ -1630,7 +1635,7 @@ const TRANSLATIONS = {
     toastWelcome:'Bienvenido a Camellia Keepers.', toastArticle:'Artículo publicado.', toastArchiveUpload:'Documento añadido al Archivo.',
   },
   fr: {
-    navAbout:'Qui Sommes-Nous', navArticles:'Revue', navArchive:'Archives', navJoin:'Rejoindre',
+    navAbout:'Qui Sommes-Nous', navArticles:'Revue', navArchive:'Archives', navAsk:'Questions', navJoin:'Rejoindre',
     heroIntro:'Une communauté étudiante sur l\'île de Jeju, engagée dans le souvenir et la reconnaissance appropriés de l\'Incident du 3 avril.',
     heroDate:'En mémoire du 3 avril 1948 &nbsp;·&nbsp; Jeju, Corée',
     hcTitle1:'Qui Sommes-Nous', hcSub1:'Qui nous sommes et pourquoi nous nous souvenons du Trois Avril.', hcArrow1:'En savoir plus →',
@@ -2599,6 +2604,7 @@ function setLanguage(lang) {
   document.querySelector('[data-route="about"]').textContent    = tr.navAbout;
   document.querySelector('[data-route="articles"]').textContent = tr.navArticles;
   document.querySelector('[data-route="archive"]').textContent  = tr.navArchive;
+  document.querySelector('[data-route="ask"]').textContent      = tr.navAsk || 'Ask';
   updateNavAuth();
 
   /* HERO */
@@ -2745,6 +2751,7 @@ function setLanguage(lang) {
       if (ls[1]) ls[1].textContent = tr.navArticles;
       if (ls[2]) ls[2].textContent = tr.navArchive;
       if (ls[3]) ls[3].textContent = tr.navJoin;
+      if (ls[4]) ls[4].textContent = tr.navAsk || 'Ask';
     }
     if (uls[1]) {
       const ls = uls[1].querySelectorAll('a');

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ask about Jeju 4·3 — Camellia Keepers</title>
+<meta name="description" content="Ask questions about the Jeju 4·3 Incident. Answers cite their sources.">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&family=Noto+Serif+KR:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#faf7f2;--bg2:#f2ede4;--bg3:#e8e2d6;
+  --g900:#1a1814;--g500:#5e5b54;--g300:#948f86;
+  --crim:#7b2d2d;--crim2:#9a3a3a;--gold:#7a5c18;
+  --text:#302e28;--muted:rgba(48,46,40,.62);
+  --border:rgba(30,28,22,.13);--borderH:rgba(30,28,22,.30);--bcrim:rgba(123,45,45,.35);
+  --serif:'EB Garamond','Noto Serif KR',Georgia,serif;
+  --display:'Playfair Display','Noto Serif KR',Georgia,serif;
+  --ui:'Inter',system-ui,-apple-system,'Apple SD Gothic Neo',sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--text);font-family:var(--serif);font-size:1.08rem;line-height:1.65;-webkit-font-smoothing:antialiased;min-height:100vh;min-height:100dvh;display:flex;flex-direction:column}
+html[lang=ko] body{font-size:1.02rem;line-height:1.75;word-break:keep-all}
+a{color:var(--crim)}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+
+.top{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;padding-top:max(12px,env(safe-area-inset-top));background:rgba(250,247,242,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.brand{display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--g900)}
+.brand img{width:28px;height:28px;object-fit:contain}
+.brand span{font-family:var(--display);font-size:1.02rem;font-weight:600;letter-spacing:.01em}
+.lang{display:flex;border:1px solid var(--borderH);border-radius:999px;overflow:hidden;font-family:var(--ui);font-size:.78rem}
+.lang button{padding:6px 11px;color:var(--g500)}
+.lang button[aria-pressed=true]{background:var(--crim);color:#fff}
+
+main{flex:1;width:100%;max-width:680px;margin:0 auto;padding:28px 16px 24px}
+.eyebrow{font-family:var(--ui);font-size:.7rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--crim);margin-bottom:8px}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(1.7rem,6.5vw,2.3rem);line-height:1.2;color:var(--g900);margin-bottom:12px}
+.intro{color:var(--muted);margin-bottom:20px}
+.site-pick{display:flex;align-items:center;gap:10px;margin-bottom:18px;font-family:var(--ui);font-size:.82rem;color:var(--g500)}
+.site-pick select{appearance:none;-webkit-appearance:none;font:inherit;font-size:16px;color:var(--g900);background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%237b2d2d' stroke-width='1.5'/%3E%3C/svg%3E") no-repeat right 12px center;border:1px solid var(--borderH);border-radius:12px;padding:8px 32px 8px 12px;max-width:100%;min-width:0;flex:1}
+.site-pick select:focus-visible{outline:2px solid var(--crim);outline-offset:2px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
+.chip{font-family:var(--ui);font-size:.86rem;line-height:1.35;text-align:left;padding:9px 13px;border:1px solid var(--bcrim);border-radius:14px;background:#fff;color:var(--crim);transition:background .15s}
+.chip:hover,.chip:focus-visible{background:var(--bg2)}
+
+.thread{display:flex;flex-direction:column;gap:22px;margin-top:26px}
+.q{align-self:flex-end;max-width:88%;background:var(--crim);color:#fff;font-family:var(--ui);font-size:.95rem;line-height:1.5;padding:10px 14px;border-radius:16px 16px 4px 16px;white-space:pre-wrap;overflow-wrap:anywhere}
+.a{scroll-margin-top:72px;background:#fff;border:1px solid var(--border);border-radius:4px 16px 16px 16px;padding:16px 18px}
+.a p+p{margin-top:.7em}
+.cite{font-family:var(--ui);font-size:.68rem;font-weight:600;vertical-align:super;line-height:0;text-decoration:none;padding:0 1px}
+.sources{margin-top:14px;padding-top:12px;border-top:1px solid var(--border);font-family:var(--ui);font-size:.8rem;color:var(--g500)}
+.sources summary{cursor:pointer;font-weight:500;color:var(--g500)}
+.sources ol{margin:10px 0 0 1.3em;display:flex;flex-direction:column;gap:6px}
+.sources li:target{background:var(--bg2);border-radius:4px}
+.tag{display:inline-block;font-size:.64rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:1px 6px;border-radius:4px;margin-right:5px;vertical-align:1px}
+.tag.off{background:rgba(122,92,24,.12);color:var(--gold)}
+.tag.ess{background:var(--bg2);color:var(--g500)}
+.pending{color:var(--muted);font-style:italic;display:flex;align-items:center;gap:10px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--crim);animation:pulse 1.1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+.err{border-color:var(--bcrim);color:var(--crim);font-family:var(--ui);font-size:.9rem}
+
+.composer{position:sticky;bottom:0;background:linear-gradient(to top,var(--bg) 78%,rgba(250,247,242,0));padding:14px 16px;padding-bottom:max(14px,env(safe-area-inset-bottom))}
+.composer form{max-width:680px;margin:0 auto;display:flex;gap:8px;align-items:flex-end;background:#fff;border:1px solid var(--borderH);border-radius:18px;padding:6px 6px 6px 14px;box-shadow:0 6px 20px -10px rgba(60,40,30,.25)}
+.composer textarea{flex:1;border:0;outline:0;resize:none;background:transparent;font-family:var(--ui);font-size:16px;line-height:1.45;color:var(--g900);padding:8px 0;max-height:140px}
+.composer button{flex:none;width:40px;height:40px;border-radius:50%;background:var(--crim);color:#fff;display:grid;place-items:center}
+.composer button:disabled{background:var(--g300)}
+.note{max-width:680px;margin:8px auto 0;text-align:center;font-family:var(--ui);font-size:.7rem;line-height:1.45;color:var(--muted)}
+@media (min-width:700px){main{padding-top:48px}}
+@media (prefers-reduced-motion:reduce){.dot{animation:none}}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="/"><img src="logo.png" alt=""><span>Camellia Keepers</span></a>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="ko" aria-pressed="false">한국어</button>
+    <button type="button" data-lang="en" aria-pressed="false">EN</button>
+  </div>
+</header>
+
+<main>
+  <p class="eyebrow" id="eyebrow"></p>
+  <div class="site-pick"><label for="site-select" id="site-label">Site</label><select id="site-select"></select></div>
+  <h1 id="title">Jeju 4·3</h1>
+  <p class="intro" id="intro"></p>
+  <div class="chips" id="chips"></div>
+  <div class="thread" id="thread" aria-live="polite"></div>
+</main>
+
+<div class="composer">
+  <form id="form" autocomplete="off">
+    <label for="q" class="sr" style="position:absolute;left:-9999px" id="qlabel">Your question</label>
+    <textarea id="q" rows="1" maxlength="500" required></textarea>
+    <button type="submit" id="send" aria-label="Send">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+  </form>
+  <p class="note" id="note"></p>
+</div>
+
+<script>
+const T = {
+  en: {
+    eyebrow: 'Ask about 4·3',
+    siteLabel: 'Site', siteGeneral: 'All of Jeju (general)',
+    intro: 'Ask a question about the Jeju 4·3 Incident. Answers come from the documents Camellia Keepers has collected, and each one lists its sources.',
+    placeholder: 'Ask a question…',
+    thinking: 'Searching the records…',
+    sources: (n) => `Sources (${n})`,
+    official: 'Official', essay: 'Essay', page: 'p.',
+    note: 'Answers are written by AI from the sources listed and can contain mistakes — check the sources. Questions are sent to OpenAI; please don’t include personal information.',
+    errors: {
+      rate_limited: 'Too many questions in a short time. Please wait a minute and try again.',
+      index_not_built: 'The service is still being set up. Please try again later.',
+      index_is_mock: 'The service is still being set up. Please try again later.',
+      question_too_long: 'Please keep your question under 500 characters.',
+      default: 'Something went wrong. Please try again in a moment.',
+    },
+  },
+  ko: {
+    eyebrow: '4·3에 대해 묻기',
+    siteLabel: '유적지', siteGeneral: '제주 전체 (일반)',
+    intro: '제주 4·3 사건에 대해 질문해 보세요. 답변은 카멜리아 키퍼스가 모은 자료를 바탕으로 하며, 각 답변에 출처가 함께 표시됩니다.',
+    placeholder: '질문을 입력하세요…',
+    thinking: '기록을 찾는 중…',
+    sources: (n) => `출처 (${n})`,
+    official: '공식', essay: '에세이', page: 'p.',
+    note: '답변은 표시된 출처를 바탕으로 AI가 작성하며 오류가 있을 수 있습니다. 출처를 함께 확인해 주세요. 질문은 OpenAI로 전송되니 개인정보는 입력하지 마세요.',
+    errors: {
+      rate_limited: '짧은 시간에 질문이 너무 많습니다. 잠시 후 다시 시도해 주세요.',
+      index_not_built: '서비스를 준비하는 중입니다. 나중에 다시 시도해 주세요.',
+      index_is_mock: '서비스를 준비하는 중입니다. 나중에 다시 시도해 주세요.',
+      question_too_long: '질문은 500자 이내로 입력해 주세요.',
+      default: '문제가 발생했습니다. 잠시 후 다시 시도해 주세요.',
+    },
+  },
+};
+
+const params = new URLSearchParams(location.search);
+let siteSlug = params.get('site');
+let siteList = {};
+let lang = pickLang();
+let siteInfo = null;
+let busy = false;
+let msgCount = 0;
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function pickLang() {
+  const p = params.get('lang');
+  if (p === 'ko' || p === 'en') return p;
+  try { const s = localStorage.getItem('ck_lang'); if (s === 'ko' || s === 'en') return s; } catch {}
+  return (navigator.language || '').toLowerCase().startsWith('ko') ? 'ko' : 'en';
+}
+
+function setLang(l) {
+  lang = l;
+  try { localStorage.setItem('ck_lang', l); } catch {}
+  render();
+}
+
+function render() {
+  const t = T[lang];
+  document.documentElement.lang = lang;
+  document.querySelectorAll('.lang button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === lang)));
+  $('eyebrow').textContent = t.eyebrow;
+  $('q').placeholder = t.placeholder;
+  $('qlabel').textContent = t.placeholder;
+  $('note').textContent = t.note;
+  $('site-label').textContent = t.siteLabel;
+  const sel = $('site-select');
+  sel.innerHTML = `<option value="">${esc(t.siteGeneral)}</option>` +
+    Object.entries(siteList).map(([slug, n]) => `<option value="${esc(slug)}">${esc(n[lang] || n.en)}</option>`).join('');
+  sel.value = siteSlug && siteList[siteSlug] ? siteSlug : '';
+  if (siteInfo) {
+    $('title').textContent = siteInfo.name[lang] || siteInfo.name.en;
+    $('intro').textContent = siteInfo.intro?.[lang] || t.intro;
+    document.title = `${siteInfo.name[lang]} — Camellia Keepers`;
+    $('chips').innerHTML = (siteInfo.suggestions?.[lang] || [])
+      .map((s) => `<button type="button" class="chip">${esc(s)}</button>`).join('');
+  } else {
+    $('intro').textContent = t.intro;
+  }
+}
+
+async function loadSite() {
+  try {
+    const r = await fetch('/api/ask' + (siteSlug ? `?site=${encodeURIComponent(siteSlug)}` : ''));
+    if (r.ok) siteInfo = await r.json();
+  } catch {}
+  render();
+}
+
+async function loadSiteList() {
+  try {
+    const r = await fetch('/api/ask?sites=1');
+    if (r.ok) siteList = (await r.json()).sites || {};
+  } catch {}
+  render();
+}
+
+$('site-select').addEventListener('change', (e) => {
+  siteSlug = e.target.value || null;
+  const url = new URL(location.href);
+  if (siteSlug) url.searchParams.set('site', siteSlug); else url.searchParams.delete('site');
+  history.replaceState(null, '', url);   // keeps the link shareable, like a QR code
+  loadSite();
+});
+
+function formatAnswer(text, id, n) {
+  return text.split(/\n{2,}/).map((para) => {
+    let h = esc(para.trim()).replace(/\n/g, '<br>');
+    h = h.replace(/\[(\d{1,2})\]/g, (m, k) =>
+      Number(k) >= 1 && Number(k) <= n ? `<a class="cite" href="#src-${id}-${k}">${k}</a>` : m);
+    return `<p>${h}</p>`;
+  }).join('');
+}
+
+function sourcesHtml(sources, id) {
+  if (!sources?.length) return '';
+  const t = T[lang];
+  const items = sources.map((s) => {
+    const tag = s.official ? `<span class="tag off">${t.official}</span>` : `<span class="tag ess">${t.essay}</span>`;
+    const label = esc(s.title) + (s.page ? ` · ${t.page} ${s.page}` : '');
+    const body = s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${label}</a>` : label;
+    return `<li id="src-${id}-${s.n}">${tag}${body}</li>`;
+  }).join('');
+  return `<details class="sources"><summary>${t.sources(sources.length)}</summary><ol>${items}</ol></details>`;
+}
+
+async function ask(question) {
+  question = question.trim();
+  if (!question || busy) return;
+  busy = true;
+  $('send').disabled = true;
+  const id = ++msgCount;
+  const thread = $('thread');
+  thread.insertAdjacentHTML('beforeend', `<div class="q">${esc(question)}</div>`);
+  const a = document.createElement('div');
+  a.className = 'a';
+  a.innerHTML = `<div class="pending"><span class="dot"></span>${T[lang].thinking}</div>`;
+  thread.appendChild(a);
+  a.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  try {
+    const r = await fetch('/api/ask', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question, lang, site: siteSlug }),
+    });
+    const data = await r.json().catch(() => ({}));
+    if (!r.ok) throw Object.assign(new Error('api'), { code: data.error });
+    a.innerHTML = formatAnswer(data.answer, id, data.sources?.length || 0) + sourcesHtml(data.sources, id);
+    // Open the source list when a citation is tapped.
+    a.querySelectorAll('.cite').forEach((c) => c.addEventListener('click', () => { a.querySelector('details').open = true; }));
+  } catch (e) {
+    const errs = T[lang].errors;
+    a.classList.add('err');
+    a.textContent = errs[e.code] || errs.default;
+  } finally {
+    busy = false;
+    $('send').disabled = false;
+    a.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+$('form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  const q = $('q').value;
+  $('q').value = '';
+  autosize();
+  ask(q);
+});
+$('q').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); $('form').requestSubmit(); }
+});
+function autosize() { const q = $('q'); q.style.height = 'auto'; q.style.height = Math.min(q.scrollHeight, 140) + 'px'; }
+$('q').addEventListener('input', autosize);
+$('chips').addEventListener('click', (e) => { const c = e.target.closest('.chip'); if (c) ask(c.textContent); });
+document.querySelectorAll('.lang button').forEach((b) => b.addEventListener('click', () => setLang(b.dataset.lang)));
+
+render();
+loadSiteList();
+loadSite();
+</script>
+</body>
+</html>

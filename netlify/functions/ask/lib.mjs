@@ -3,7 +3,7 @@
 // No npm dependencies: OpenAI is called with fetch.
 
 export const CONFIG = {
-  chatModel: () => env('OPENAI_CHAT_MODEL', 'gpt-4o'),
+  chatModel: () => env('OPENAI_CHAT_MODEL', 'gpt-6-luna'),
   // Only reasoning models (o-series, gpt-5, gpt-6…) accept reasoning_effort; others get a low temperature.
   isReasoningModel: () => /^(o\d|gpt-5|gpt-6)/.test(CONFIG.chatModel()),
   reasoningEffort: () => env('OPENAI_REASONING_EFFORT', 'low'),
