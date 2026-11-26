@@ -216,7 +216,9 @@ $('site-select').addEventListener('change', (e) => {
 
 function formatAnswer(text, id, n) {
   return text.split(/\n{2,}/).map((para) => {
-    let h = esc(para.trim()).replace(/\n/g, '<br>');
+    let h = esc(para.trim()).replace(/\n/g, '<br>')
+      .replace(/\*\*([^*\n]+)\*\*/g, '<strong>$1</strong>')      // **bold**
+      .replace(/(^|[^*\w])\*([^*\n]+)\*(?!\w)/g, '$1<em>$2</em>'); // *italics*
     h = h.replace(/\[(\d{1,2})\]/g, (m, k) =>
       Number(k) >= 1 && Number(k) <= n ? `<a class="cite" href="#src-${id}-${k}">${k}</a>` : m);
     return `<p>${h}</p>`;

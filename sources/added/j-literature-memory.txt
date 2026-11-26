@@ -1,0 +1,173 @@
+[[page 1]]
+CAMELLIA KEEPERS | Journals Culture
+From Communicative to Cultural Memory: Literature
+and Art as Records of Jeju 4·3 under State Silence
+8 October 2026
+Abstract. For several decades after 1954, public discussion of the Jeju 4·3 Incident was suppressed in South
+Korea, and memory of the events was largely confined to private recollection within families and villages.
+This article examines how literary and artistic works carried that memory into the public sphere before
+formal state recognition was granted through the Special Act of 2000 and the presidential apology of 2003.
+Drawing on Jan Assmann's distinction between communicative and cultural memory, it analyses four
+works: Hyun Ki-young's Sun-i Samchon (1978), Kim Seok-beom's Kazantō (1976–1983), Lee San-ha's
+Hallasan (1987) and Kang Yo-bae's Dongbaekkkot Jida series (1989–1992). It then considers Han Kang's
+We Do Not Part (2021) as an example of the later international circulation of 4·3 memory. The article argues
+that these works functioned as early carriers of cultural memory at a time when the state sought to restrict it,
+and that their production frequently came at considerable personal cost to their creators.
+Keywords: Jeju 4·3; cultural memory; Korean literature; censorship; commemoration
+1. Introduction
+The Jeju 4·3 Incident refers to the armed uprising of 3 April 1948 and the counterinsurgency campaign that
+followed it, which the Special Act of 2000 defines as continuing until 21 September 1954 (Ryang, 2013). Offi‐
+cial estimates place the number of deaths at approximately 30,000, while figures cited within the Jeju Korean
+community in Japan are considerably higher (Ryang, 2013). For decades after the conflict, the events were offi‐
+cially characterised as a communist rebellion, and open discussion was restricted under anti-communist legis‐
+lation (Ryang, 2013). Survivors and the families of victims had strong reasons to remain silent, since associ‐
+ation with those labelled as communists carried lasting social and political consequences.
+Formal acknowledgement came late. The Special Act concerning the 4·3 Incident was promulgated in
+January 2000 with the stated aim of restoring the honour of victims, and President Roh Moo-hyun issued a
+formal apology to the people of Jeju in October 2003 (Ryang, 2013). The subject had, however, entered pub‐
+lic discourse earlier through fiction, poetry and painting. This article examines that earlier phase. It argues that
+literary and artistic works acted as the first public carriers of 4·3 memory, transferring it from private recollec‐
+tion into durable cultural forms, and that this process preceded, and arguably prepared the ground for, recog‐
+nition by the state.
+1
+[[page 2]]
+2. Theoretical Framework: Communicative and Cultural Memory
+Jan Assmann distinguishes between two modes of collective memory (Assmann & Czaplicka, 1995). Commu‐
+nicative memory is based on everyday interaction and oral exchange. It is informal and has a limited temporal
+horizon of roughly eighty to one hundred years, or approximately three to four generations. Cultural memory,
+by contrast, is sustained through objectified forms such as texts, rituals, images and monuments, which allow
+memory to persist beyond the lifetimes of those who experienced the original events.
+This distinction is useful for the study of 4·3. During the period of suppression, memory of the events ex‐
+isted mainly in communicative form: within families, within villages and in the private observance of ancestral
+rites. Without transmission into more durable forms, such memory would be expected to weaken as the gener‐
+ation of survivors aged. The works discussed below can be read as attempts to make this transition under con‐
+ditions in which the state actively discouraged it.
+3. Literature under Censorship
+3.1 Hyun Ki-young, Sun-i Samchon (1978)
+Hyun Ki-young, born on Jeju in 1941, published the novella Sun-i Samchon (순이삼촌) in the literary journal
+Changjak-gwa Bipyeong (Creation and Criticism) in 1978. It is widely regarded as the first literary work to ad‐
+dress the 4·3 Incident directly (Literature Translation Institute of Korea [LTI Korea], n.d.). The narrator, who
+lives in Seoul, learns that Aunt Suni, an elderly woman from his home village, has taken her own life. Some
+thirty years earlier she had survived a massacre in which her two children were killed, and the narrator comes
+to understand her death as a delayed consequence of that event (LTI Korea, n.d.). The term samchon, which
+means "uncle" in standard Korean, is used in Jeju to address older neighbours regardless of sex.
+The novella renames the setting as Seochon, but its account is based on the massacre at Bukchon-ri (Kim,
+2019). On 17 January 1949, more than 300 residents of Bukchon-ri were killed by soldiers and police (The
+Korea Times, 2019; Seoul Shinmun, 2018). One frequently cited passage describes ancestral rites beginning in
+many households at the same hour, a detail that reflects the number of families who lost members on a single
+day (Kim, 2019). In Assmann's terms, the passage records the point at which a village's communicative
+memory, maintained through ritual, was fixed in a published text.
+The consequences for the author illustrate the limits placed on such work. After publication, Hyun was
+arrested and tortured, and he was released on condition that he would not write about 4·3 again (Ryang,
+2013). The book was subsequently banned for a number of years (Chung, 2025). Its later commemoration in‐
+dicates the change in official attitudes: in 2007, a literary monument to Sun-i Samchon was erected at Neo‐
+beunsungi in Bukchon-ri, alongside a memorial hall for the victims (Seoul Shinmun, 2018).
+Camellia Keepers · Journals Culture
+2
+[[page 3]]
+Figure 1. Location of Bukchon-ri in relation to Jeju City, Seogwipo and the Jeju 4·3 Peace Park. Coastline drawn from Statistics Korea
+(KOSTAT) 2013 boundary data.
+3.2 Lee San-ha, Hallasan (1987)
+The poet Lee San-ha wrote the long poem Hallasan between the autumn of 1986 and January 1987, and it
+was published in March 1987 in the independent publication Nokdu Seopyeong (Weekly Kyunghyang, 2018).
+In November 1987, several months after the June Democratic Struggle, Lee was arrested. He was sentenced to
+imprisonment and released under a special pardon in 1988 (Weekly Kyunghyang, 2018). That the poem led to
+imprisonment almost forty years after the uprising, and after the beginning of democratisation, indicates how
+persistent official sensitivity towards the subject remained.
+4. Memory beyond the Peninsula: Kim Seok-beom's Kazantō
+Not all early representations of 4·3 were produced in South Korea. A significant number of Jeju islanders
+settled in Japan, and among Koreans of Jeju origin living there, memory of the uprising was preserved and re‐
+peatedly retold despite its suppression at home (Ryang, 2013). Ryang (2013) notes that these accounts placed
+responsibility on mainland militias, the government of Syngman Rhee and the United States, and that they
+differed from both the official South Korean and the North Korean interpretations of the events.
+Kim Seok-beom, born in Osaka in 1925, wrote Kazantō (Volcano Island; Korean: Hwasando) in Japanese.
+The novel was serialised in the literary monthly Bungakukai from February 1976 to August 1981 and was
+published in three volumes in 1983; its narrative covers the period from approximately February to April 1948
+(Ryang, 2013). Ryang chose to analyse the novel rather than to interview survivors, arguing that survivors fre‐
+quently lack the language to describe what they witnessed and that fiction is able to convey this limit. She also
+reads the novel's apolitical protagonist, Yi Bang-geun, as a figure for the author himself: an onlooker who was
+not present at the violence (Ryang, 2013).
+Camellia Keepers · Journals Culture
+3
+[[page 4]]
+The case of Kazantō suggests that the cultural memory of 4·3 did not depend solely on conditions within
+South Korea. Where publication at home was restricted, a diasporic community provided an alternative site in
+which memory could be given textual form.
+5. Visual Representation: Kang Yo-bae's Dongbaekkkot Jida
+Between 1989 and 1992, the painter Kang Yo-bae produced a series of historical paintings on 4·3 based on sur‐
+vivor testimony and documentary records (Kim, 2018). The series is known as Dongbaekkkot Jida (동백꽃 지
+다, "The Camellia Falls"). Its title work depicts camellia blossoms falling whole from the branch, an image set
+against the suffering of the people of Jeju; the same image was later used as the cover of a published collection
+of 4·3 testimonies (Kim, 2009).
+The camellia, which drops its entire bloom rather than shedding individual petals, has since become the
+principal symbol of 4·3 commemoration and is worn as a badge at memorial events. Kang's series is significant
+in this context because it gave the events a recognisable visual form. Within Assmann's framework, such im‐
+ages operate as stable reference points that allow a past event to be recalled and recognised by people who did
+not experience it.
+6. Institutionalisation and International Reception
+The period after 2000 marks a shift from unofficial to official memory. The Special Act of 2000 and the pres‐
+idential apology of 2003 gave state recognition to the events (Ryang, 2013), and legal efforts have continued
+since. In 2017, eighteen survivors petitioned for the reopening of convictions issued against them by military
+tribunals during the Incident (Yamamoto et al., 2018). Commemoration has also continued at a local level
+through the work of survivors, artists and bereaved families (Ching & Lim, 2023).
+Han Kang's novel We Do Not Part (작별하지 않는다), published in 2021, represents a later stage in which
+4·3 memory circulates internationally. The novel follows a writer who becomes involved in her friend's family
+history, centred on the friend's mother and her lifelong search for a brother who disappeared during the Incid‐
+ent (Chung, 2025). Han Kang was awarded the Nobel Prize in Literature in October 2024, and in 2026 the
+English translation of We Do Not Part received the National Book Critics Circle Award for fiction in the
+United States (Asia News Network, 2026). A subject whose literary treatment led to the arrest of authors in
+1978 and 1987 has therefore entered the internationally recognised canon of Korean literature.
+Camellia Keepers · Journals Culture
+4
+[[page 5]]
+Figure 2. Chronology of the principal literary and artistic works on 4·3 in relation to the events of the Incident and its official
+recognition, 1948–2024. Compiled from the sources cited in this article.
+7. Conclusion
+This article has examined the role of literature and art in preserving the memory of the Jeju 4·3 Incident dur‐
+ing and after the period of state suppression. Each of the four principal works considered appeared before the
+Special Act of 2000. Kazantō began serialisation twenty-four years earlier, Sun-i Samchon was published
+twenty-two years earlier, Hallasan thirteen years earlier, and Kang Yo-bae's series was completed eight years
+earlier. In two of these cases, the authors were arrested as a direct result of their work.
+Using Assmann's distinction, these works can be understood as early mechanisms through which the
+communicative memory of survivors and their families was converted into cultural memory. They made the
+events available to readers and viewers with no direct connection to them, and they did so while official chan‐
+nels of remembrance remained closed. The subsequent recognition of 4·3 by the state should therefore be un‐
+derstood as following, rather than initiating, the public remembrance of the events.
+For students and residents of Jeju today, this suggests that the literature and art of 4·3 should be studied
+alongside historical and legal sources. Such works do not replace documentary evidence. They do, however,
+preserve aspects of the experience that documentary records alone do not capture, particularly the long-term
+effects of the violence on those who survived it.
+References
+Asia News Network. (2026, April 1). South Korean Nobel laureate Han Kang wins US book critics' top fiction prize for 'We Do
+Not Part'. https://asianews.network/south-korean-nobel-laureate-han-kang-wins-us-book-critics-top-fiction-prize-for-
+we-do-not-part/
+Assmann, J., & Czaplicka, J. (1995). Collective memory and cultural identity. New German Critique, 65, 125–133.
+Ching, L. T. S., & Lim, H. (2023). Voices from Cheju (Jeju): Towards an archipelagic imagination. The Asia-Pacific Journal:
+Japan Focus, 21(7), Article 2.
+Chung, H. (2025, June 5). The 4.3 Jeju massacre in words: Two representative novels. Gwangju News. https://
+gwangjunewsgic.com/features/the-4-3-jeju-massacre-in-words-two-representative-novels/
+Camellia Keepers · Journals Culture
+5
+[[page 6]]
+Kim, G. (2009, April 3). "Dongbaekkkot jineun geu seom, Jejudo-yeo!" [That island where the camellias fall, Jeju!]. Pressian.
+https://pressian.com/pages/articles/94067
+Kim, J. (2018, May 31). Bunnohadeut heuneukkideut chulleongineun, jeo gyeoul bada [That winter sea, surging as if in anger,
+as if in sobs]. Kyunghyang Shinmun. https://www.khan.co.kr/article/201805312129005
+Kim, S. (2019, December 26). Chongtane sseureojyeo biseongmajeo nupda [Felled by bullets, even the gravestones lie down].
+Jeju-nuri. https://www.jnuri.net/news/article.html?no=42714
+Literature Translation Institute of Korea. (n.d.). Sunisamchon [Original work entry]. LTI Korea Library. https://
+library.ltikorea.or.kr/originalworks/101654
+Ryang, S. (2013). Reading Volcano Island: In the sixty-fifth year of the Jeju 4.3 Uprising. The Asia-Pacific Journal: Japan Focus,
+11(36), Article 2. https://doi.org/10.1017/S1557466013034591
+Seoul Shinmun. (2018, February 21). Ppalgaengi gajok saekchul iyu… jwado udo anin mingan-in… 300-myeong muchabyeol
+daehaksal [Hunting out "red" families: Civilians who were neither left nor right, 300 killed indiscriminately]. https://
+m.go.seoul.co.kr/news/2018/02/21/20180221016002
+The Korea Times. (2019, May 2). Uncovering Jeju revolt. https://www.koreatimes.co.kr/amp/opinion/20190502/uncovering-
+jeju-revolt
+Weekly Kyunghyang. (2018, March 26). Jeju 4·3 Hallasan si-in I San-ha [Lee San-ha, poet of Jeju 4·3's Hallasan]. https://
+weekly.khan.co.kr/article/201803261703461
+Yamamoto, E. K., Katano, K., Oyama, R., & Crowell, W. N. K. (2018). Human rights and reparative justice: The 2018
+reopening of the Jeju 4.3 mass convictions through the lens of the coram nobis Japanese American WWII incarceration
+cases. World Environment and Island Studies, 8(4), 167–180.
+Camellia Keepers · Journals Culture
+6

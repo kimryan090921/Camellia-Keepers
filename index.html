@@ -806,7 +806,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
     </div>
     <div class="mission-stats">
       <div class="mstat reveal"><div class="mstat-num">1948<span>–</span>1954</div><div class="mstat-label">Duration of the Incident</div></div>
-      <div class="mstat reveal"><div class="mstat-num">25<span>–</span>35k</div><div class="mstat-label">Estimated Victims</div></div>
+      <div class="mstat reveal"><div class="mstat-num">25<span>–</span>30k</div><div class="mstat-label">Estimated Victims</div></div>
       <div class="mstat reveal"><div class="mstat-num">76<span>+</span></div><div class="mstat-label">Years Since April 3rd</div></div>
       <div class="mstat reveal"><div class="mstat-num">2025</div><div class="mstat-label">Middle School Curriculum Year</div></div>
     </div>
@@ -816,14 +816,14 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
     <span class="section-tag">From the Journals</span>
     <h2 class="section-title reveal">Featured Journals</h2>
     <div class="home-articles-list">
-      <div class="home-article-item reveal" onclick="navigate('articles')">
+      <div class="home-article-item reveal" onclick="openPdfViewer('j1')">
+        <span class="hai-cat">History</span><span class="hai-title">Justice Delayed: Retrials, Compensation and Transitional Justice for Jeju 4·3</span><span class="hai-date">15 Oct 2026</span>
+      </div>
+      <div class="home-article-item reveal" onclick="openPdfViewer('j2')">
+        <span class="hai-cat">Culture</span><span class="hai-title">From Communicative to Cultural Memory: Literature and Art as Records of Jeju 4·3</span><span class="hai-date">8 Oct 2026</span>
+      </div>
+      <div class="home-article-item reveal" onclick="openPdfViewer('s1')">
         <span class="hai-cat">Culture</span><span class="hai-title">The Economic Impacts of Jeju 4·3 Dark Tourism</span><span class="hai-date">15 May 2026</span>
-      </div>
-      <div class="home-article-item reveal" onclick="navigate('articles')">
-        <span class="hai-cat">History</span><span class="hai-title">Labelling Theory and the Construction of "Communist" Identities</span><span class="hai-date">23 Apr 2026</span>
-      </div>
-      <div class="home-article-item reveal" onclick="navigate('articles')">
-        <span class="hai-cat">Education</span><span class="hai-title">The Ethics of Remembering and Forgetting</span><span class="hai-date">23 Apr 2026</span>
       </div>
     </div>
     <div style="margin-top:32px">
@@ -847,7 +847,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
     </div>
     <div class="psi" style="background-image:url('4.3 Photos/435.jpeg')">
       <div class="psi-label">
-        <p class="psi-year">25,000–<br>35,000</p>
+        <p class="psi-year">25,000–<br>30,000</p>
         <p class="psi-word">Lives Lost</p>
       </div>
     </div>
@@ -931,10 +931,10 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;o
       </div>
       <div class="tl-item reveal" style="transition-delay:.45s">
         <div class="tl-date">1948–1954 — The Massacres</div>
-        <div class="tl-body">The conflict lasted six years. Between 25,000 and 35,000 people — a staggering proportion of Jeju's population — were killed in violent suppression campaigns. Villages were burned, families destroyed, and survivors subjected to lifelong trauma. The full scale of the atrocity was deliberately concealed for decades.</div>
+        <div class="tl-body">The conflict lasted six years. Between 25,000 and 30,000 people — a staggering proportion of Jeju's population — were killed in violent suppression campaigns. Villages were burned, families destroyed, and survivors subjected to lifelong trauma. The full scale of the atrocity was deliberately concealed for decades.</div>
       </div>
     </div>
-    <div class="pullquote reveal">Between 25,000 and 35,000 people — a significant fraction of Jeju's entire population — were killed in state-led suppression campaigns between 1948 and 1954.</div>
+    <div class="pullquote reveal">Between 25,000 and 30,000 people — a significant fraction of Jeju's entire population — were killed in state-led suppression campaigns between 1948 and 1954.</div>
   </section>
 
   <section id="about-mission" class="section">
@@ -1347,8 +1347,8 @@ const TRANSLATIONS = {
     tl3Date:'April 3rd, 1948 — The Uprising',
     tl3Body:'In opposition to the planned election, left-wing groups in Jeju rose against police stations and right-wing officials on April 3rd, 1948. What began as a political protest evolved into a prolonged, state-led counterinsurgency campaign that descended into large-scale civilian massacre.',
     tl4Date:'1948–1954 — The Massacres',
-    tl4Body:'The conflict lasted six years. Between 25,000 and 35,000 people — a staggering proportion of Jeju\'s population — were killed in violent suppression campaigns. Villages were burned, families destroyed, and survivors subjected to lifelong trauma. The full scale of the atrocity was deliberately concealed for decades.',
-    aboutCh2EndPQ:'Between 25,000 and 35,000 people — a significant fraction of Jeju\'s entire population — were killed in state-led suppression campaigns between 1948 and 1954.',
+    tl4Body:'The conflict lasted six years. Between 25,000 and 30,000 people — a staggering proportion of Jeju\'s population — were killed in violent suppression campaigns. Villages were burned, families destroyed, and survivors subjected to lifelong trauma. The full scale of the atrocity was deliberately concealed for decades.',
+    aboutCh2EndPQ:'Between 25,000 and 30,000 people — a significant fraction of Jeju\'s entire population — were killed in state-led suppression campaigns between 1948 and 1954.',
     aboutCh3Title:'From Silence to Memory',
     aboutCh3B1:'For decades after the massacres, information about the April 3rd Incident was suppressed. Survivors and their families were silenced. It was only in recent years that the full scope of what occurred became widely accessible and acknowledged.',
     aboutCh3B2:'Today, few people in Korea are entirely unaware of the incident — yet awareness has not corrected widespread misconceptions. A considerable proportion still hold inaccurate understandings unless they have conducted independent research. Secondary school curricula only began addressing 4·3 in the early 2010s; it was added to the middle school curriculum in 2025.',
@@ -1428,8 +1428,8 @@ const TRANSLATIONS = {
     tl3Date:'1948년 4월 3일 — 봉기',
     tl3Body:'계획된 선거에 반대하여, 제주의 좌익 세력은 1948년 4월 3일 경찰서와 우익 인사들을 향해 봉기했습니다. 정치적 저항으로 시작된 것이 장기간의 국가 주도 토벌 작전으로 발전하여 대규모 민간인 학살로 이어졌습니다.',
     tl4Date:'1948–1954 — 학살',
-    tl4Body:'갈등은 6년간 지속되었습니다. 제주 인구의 상당한 비율에 해당하는 2만 5천에서 3만 5천 명이 폭력적인 탄압으로 사망했습니다. 마을이 불에 타고, 가족이 파괴되었으며, 생존자들은 평생의 트라우마에 시달렸습니다. 만행의 전체 규모는 수십 년간 의도적으로 은폐되었습니다.',
-    aboutCh2EndPQ:'1948년부터 1954년까지 국가 주도의 탄압으로 2만 5천에서 3만 5천 명 — 제주 전체 인구의 상당한 비율 — 이 희생되었습니다.',
+    tl4Body:'갈등은 6년간 지속되었습니다. 제주 인구의 상당한 비율에 해당하는 2만 5천에서 3만 명이 폭력적인 탄압으로 사망했습니다. 마을이 불에 타고, 가족이 파괴되었으며, 생존자들은 평생의 트라우마에 시달렸습니다. 만행의 전체 규모는 수십 년간 의도적으로 은폐되었습니다.',
+    aboutCh2EndPQ:'1948년부터 1954년까지 국가 주도의 탄압으로 2만 5천에서 3만 명 — 제주 전체 인구의 상당한 비율 — 이 희생되었습니다.',
     aboutCh3Title:'침묵에서 기억으로',
     aboutCh3B1:'학살 이후 수십 년간, 4·3사건에 관한 정보는 억압되었습니다. 생존자와 그 가족들은 침묵을 강요당했습니다. 사건의 전모가 널리 알려지고 인정받기 시작한 것은 비교적 최근의 일입니다.',
     aboutCh3B2:'오늘날 한국에서 4·3사건을 전혀 모르는 사람은 많지 않습니다 — 그러나 인식이 퍼진 것이 광범위한 오해를 바로잡지는 못했습니다. 스스로 연구하지 않는 한 상당수가 여전히 부정확한 이해를 갖고 있습니다. 고등학교 교육과정에서 4·3을 다루기 시작한 것은 2010년대 초반이었으며, 중학교 교육과정에는 2025년에 추가되었습니다.',
@@ -1509,8 +1509,8 @@ const TRANSLATIONS = {
     tl3Date:'1948年4月3日——起义',
     tl3Body:'为反对计划中的选举，济州的左翼力量于1948年4月3日起义，袭击警察局和右翼官员。这场政治抗议演变为持久的、由国家主导的反叛乱运动，最终演变为大规模平民屠杀。',
     tl4Date:'1948–1954年——屠杀',
-    tl4Body:'冲突持续了六年。两万五千至三万五千人——占济州人口相当大的比例——在暴力镇压中遇难。村庄被焚毁，家庭支离破碎，幸存者遭受了终身的创伤。暴行的全貌被故意隐瞒了数十年。',
-    aboutCh2EndPQ:'1948年至1954年间，两万五千至三万五千人——占济州全部人口相当大的比例——在国家主导的镇压运动中遇难。',
+    tl4Body:'冲突持续了六年。两万五千至三万人——占济州人口相当大的比例——在暴力镇压中遇难。村庄被焚毁，家庭支离破碎，幸存者遭受了终身的创伤。暴行的全貌被故意隐瞒了数十年。',
+    aboutCh2EndPQ:'1948年至1954年间，两万五千至三万人——占济州全部人口相当大的比例——在国家主导的镇压运动中遇难。',
     aboutCh3Title:'从沉默到记忆',
     aboutCh3B1:'学杀发生后数十年间，关于4·3事件的信息遭到压制。幸存者及其家属被迫沉默。直到近年来，事件的全貌才得以广泛传播和承认。',
     aboutCh3B2:'如今，韩国几乎没有人对该事件完全不知情——但认知的扩散并未纠正普遍的误解。相当大比例的人若未进行独立研究，仍持有不准确的理解。高中课程在2010年代初才开始涉及4·3；2025年被纳入初中课程。',
@@ -1588,8 +1588,8 @@ const TRANSLATIONS = {
     tl3Date:'3 de abril de 1948 — El Alzamiento',
     tl3Body:'En oposición a las elecciones planeadas, grupos de izquierda en Jeju se levantaron contra las comisarías y funcionarios de derecha el 3 de abril de 1948. Lo que comenzó como una protesta política evolucionó hacia una prolongada campaña de contrainsurgencia liderada por el Estado que derivó en una masacre civil a gran escala.',
     tl4Date:'1948–1954 — Las Masacres',
-    tl4Body:'El conflicto duró seis años. Entre 25.000 y 35.000 personas — una proporción asombrosa de la población de Jeju — fueron asesinadas en campañas de represión violenta. Los pueblos fueron quemados, las familias destruidas y los supervivientes sometidos a un trauma de por vida. El alcance total de la atrocidad fue deliberadamente ocultado durante décadas.',
-    aboutCh2EndPQ:'Entre 25.000 y 35.000 personas — una fracción significativa de toda la población de Jeju — fueron asesinadas en campañas de represión dirigidas por el Estado entre 1948 y 1954.',
+    tl4Body:'El conflicto duró seis años. Entre 25.000 y 30.000 personas — una proporción asombrosa de la población de Jeju — fueron asesinadas en campañas de represión violenta. Los pueblos fueron quemados, las familias destruidas y los supervivientes sometidos a un trauma de por vida. El alcance total de la atrocidad fue deliberadamente ocultado durante décadas.',
+    aboutCh2EndPQ:'Entre 25.000 y 30.000 personas — una fracción significativa de toda la población de Jeju — fueron asesinadas en campañas de represión dirigidas por el Estado entre 1948 y 1954.',
     aboutCh3Title:'Del Silencio a la Memoria',
     aboutCh3B1:'Durante décadas tras las masacres, la información sobre el Incidente del 3 de Abril fue suprimida. Los supervivientes y sus familias fueron silenciados. Solo en años recientes el alcance completo de lo ocurrido se volvió ampliamente accesible y reconocido.',
     aboutCh3B2:'Hoy, pocas personas en Corea desconocen por completo el incidente — sin embargo, la conciencia no ha corregido los malentendidos generalizados. Una proporción considerable aún mantiene comprensiones inexactas a menos que hayan realizado investigaciones independientes. Los currículos de secundaria solo comenzaron a abordar el 4·3 a principios de la década de 2010; fue añadido al currículo de educación media en 2025.',
@@ -1667,8 +1667,8 @@ const TRANSLATIONS = {
     tl3Date:'3 avril 1948 — Le Soulèvement',
     tl3Body:'En opposition aux élections prévues, des groupes de gauche à Jeju se sont soulevés contre les commissariats de police et les responsables de droite le 3 avril 1948. Ce qui a commencé comme une protestation politique a évolué vers une campagne de contre-insurrection prolongée, dirigée par l\'État, qui a débouché sur un massacre civil à grande échelle.',
     tl4Date:'1948–1954 — Les Massacres',
-    tl4Body:'Le conflit a duré six ans. Entre 25 000 et 35 000 personnes — une proportion stupéfiante de la population de Jeju — ont été tuées dans des campagnes de répression violente. Des villages ont été brûlés, des familles détruites et des survivants soumis à un traumatisme à vie. L\'ampleur totale de l\'atrocité a été délibérément dissimulée pendant des décennies.',
-    aboutCh2EndPQ:'Entre 25 000 et 35 000 personnes — une fraction significative de toute la population de Jeju — ont été tuées dans des campagnes de répression menées par l\'État entre 1948 et 1954.',
+    tl4Body:'Le conflit a duré six ans. Entre 25 000 et 30 000 personnes — une proportion stupéfiante de la population de Jeju — ont été tuées dans des campagnes de répression violente. Des villages ont été brûlés, des familles détruites et des survivants soumis à un traumatisme à vie. L\'ampleur totale de l\'atrocité a été délibérément dissimulée pendant des décennies.',
+    aboutCh2EndPQ:'Entre 25 000 et 30 000 personnes — une fraction significative de toute la population de Jeju — ont été tuées dans des campagnes de répression menées par l\'État entre 1948 et 1954.',
     aboutCh3Title:'Du Silence à la Mémoire',
     aboutCh3B1:'Pendant des décennies après les massacres, les informations sur l\'Incident du 3 avril ont été supprimées. Les survivants et leurs familles ont été réduits au silence. Ce n\'est que récemment que l\'étendue complète de ce qui s\'est passé est devenue largement accessible et reconnue.',
     aboutCh3B2:'Aujourd\'hui, peu de gens en Corée ignorent totalement l\'incident — pourtant, la sensibilisation n\'a pas corrigé les idées fausses répandues. Une proportion considérable maintient encore des compréhensions inexactes à moins d\'avoir effectué des recherches indépendantes. Les programmes du secondaire n\'ont commencé à aborder le 4·3 qu\'au début des années 2010 ; il a été ajouté au programme du collège en 2025.',
@@ -1726,6 +1726,30 @@ function updateNavAuth() {
    ARTICLES DATA
 ══════════════════════════════════════════ */
 const SAMPLE_ARTICLES = [
+  /* ── Added 2026-11-25: Camellia Keepers journals, October 2026 ── */
+  {
+    id: 'j1',
+    category: 'History',
+    author: 'Camellia Keepers',
+    date: '2026-10-15',
+    previewImg: 'Articles/preview-justice-delayed.png',
+    pdf: 'Articles/article-justice-delayed.pdf',
+    title: 'Justice Delayed: Retrials, Compensation and Transitional Justice for Jeju 4·3, 2000–2026',
+    excerpt: 'Assesses the state’s legal response to Jeju 4·3 through the UN framework of truth, justice, reparation and non-recurrence: the 2003 report, the retrials that overturned military-tribunal convictions, and the compensation scheme of the revised Special Act of 2021.',
+    content: '',
+  },
+  {
+    id: 'j2',
+    category: 'Culture',
+    author: 'Camellia Keepers',
+    date: '2026-10-08',
+    previewImg: 'Articles/preview-literature-memory.png',
+    pdf: 'Articles/article-literature-memory.pdf',
+    title: 'From Communicative to Cultural Memory: Literature and Art as Records of Jeju 4·3 under State Silence',
+    excerpt: 'How literary and artistic works, from Hyun Ki-young’s Sun-i Samchon to Kang Yo-bae’s Dongbaekkkot Jida series and Han Kang’s We Do Not Part, carried the memory of 4·3 into public life before formal state recognition.',
+    content: '',
+  },
+  /* ── Original journals ── */
   {
     id: 's1',
     category: 'Culture',
@@ -1998,7 +2022,7 @@ Ricoeur's concept of "just memory" (mémoire juste) is equally pertinent here. W
 
 V. The Politics of Acknowledgement: Transitional Justice and Its Limits
 
-The passage of the Jeju 4.3 Special Act in January 2000, followed by the publication of the official government investigation report in 2003, and President Roh Moo-hyun's formal apology on April 3, 2003 — the fifty-fifth anniversary of the uprising — represented a tectonic shift in South Korea's politics of memory. The apology was, by any comparative standard, remarkable: a sitting head of state assuming institutional responsibility for atrocities committed by preceding governments.
+The passage of the Jeju 4.3 Special Act in January 2000, followed by the publication of the official government investigation report in 2003, and President Roh Moo-hyun's formal apology on October 31, 2003, represented a tectonic shift in South Korea's politics of memory. The apology was, by any comparative standard, remarkable: a sitting head of state assuming institutional responsibility for atrocities committed by preceding governments.
 
 And yet the process has been neither linear nor uncontested. As recently as 2019, conservative political forces within South Korea sought to revise the 4.3 narrative, reintroducing language that framed the uprising primarily as a communist insurrection rather than as a civilian massacre. According to survey data collected by the Jeju 4.3 Peace Foundation in 2021, approximately 34.6% of South Koreans aged 18–29 reported having "little or no knowledge" of the Jeju incident, suggesting that even after two decades of official memorialisation, the transmission of historical consciousness across generations remains fragile.
 
@@ -2105,6 +2129,62 @@ Ultimately, the legacy of Jeju 4.3 is not only one of tragedy, but also of resil
     excerpt: 'An examination of the Jeju 4·3 Incident through a legal lens — analysing the legislative framework, state accountability, and the long road to official recognition and reparation.',
     content: '',
   },
+  /* ── Added 2026-11-25: essays from the society's shared folder (authors and dates to be confirmed) ── */
+  {
+    id: 'j3',
+    category: 'Culture',
+    author: '',   // TODO: author unconfirmed — ask Taewon
+    date: null,   // date unknown
+    previewImg: 'Articles/preview-landscape-trauma.png',
+    pdf: 'Articles/article-landscape-trauma.pdf',
+    title: 'A Landscape of Trauma: Environmental History and the Memory of the Jeju 4·3 Incident',
+    excerpt: 'Reads Jeju’s landscapes and historical sites as places that preserve the memory of violence, through the lenses of environmental history and cultural geography.',
+    content: '',
+  },
+  {
+    id: 'j4',
+    category: 'History',
+    author: '',   // TODO: author unconfirmed — ask Taewon
+    date: null,   // date unknown
+    previewImg: 'Articles/preview-tj-analysis.png',
+    pdf: 'Articles/article-tj-analysis.pdf',
+    title: 'A Transitional Justice Analysis of the Jeju 4.3 Incident: Victim Reparations, Memory Politics, and Global Parallels',
+    excerpt: 'Places Jeju 4·3 within comparative transitional justice, arguing that the Special Act and its 2021–2022 amendments offer a strong model of rehabilitation but stop short of criminal accountability.',
+    content: '',
+  },
+  {
+    id: 'j5',
+    category: 'Education',
+    author: '',   // TODO: author unconfirmed — ask Taewon
+    date: null,   // date unknown
+    previewImg: 'Articles/preview-inherited-silence.png',
+    pdf: 'Articles/article-inherited-silence.pdf',
+    title: 'Inherited Silence: Intergenerational Trauma and Collective Memory in the Legacy of the Jeju 4.3 Incident',
+    excerpt: 'Examines how decades of enforced silence after 4·3 turned grief that could not be voiced into a trauma inherited by later generations of Jeju families.',
+    content: '',
+  },
+  {
+    id: 'j6',
+    category: 'Culture',
+    author: '',   // TODO: author unconfirmed — ask Taewon
+    date: null,   // date unknown
+    previewImg: 'Articles/preview-silence-to-archive.png',
+    pdf: 'Articles/article-silence-to-archive.pdf',
+    title: 'From Silence to Archive: The Jeju 4.3 Incident and the Study of Collective Memory',
+    excerpt: 'Uses the study of collective memory to show how testimony, documents, memorials and ceremonies turned suppressed private memories of 4·3 into publicly recognised history.',
+    content: '',
+  },
+  {
+    id: 'j7',
+    category: 'History',
+    author: '',   // TODO: author unconfirmed — ask Taewon
+    date: null,   // date unknown
+    previewImg: 'Articles/preview-tj-accountability.png',
+    pdf: 'Articles/article-tj-accountability.pdf',
+    title: 'Transitional Justice and the Jeju 4.3 Incident: Truth, Reparations, and the Limits of Accountability',
+    excerpt: 'Assesses truth-seeking, reparations and memorialisation for Jeju 4·3, a process driven largely by survivors and civil society, and where it still falls short.',
+    content: '',
+  },
 ];
 
 const CK_ARTICLES = {
@@ -2120,6 +2200,7 @@ let pdfViewerReturnRoute = 'articles';
 
 function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function fmtDate(d) {
+  if (!d) return '';
   const [y,m,day] = d.split('-').map(Number);
   if (window.CK_LANG === 'ko') return `${y}년 ${m}월 ${day}일`;
   if (window.CK_LANG === 'zh') return `${y}年${m}月${day}日`;
@@ -2149,9 +2230,9 @@ function renderArticles() {
     <div class="article-card" onclick="${handler}">
       ${thumb}
       <div class="ac-body">
-        <div class="ac-meta"><span class="ac-cat">${esc(a.category)}</span><span class="ac-date">${fmtDate(a.date)}</span></div>
+        <div class="ac-meta"><span class="ac-cat">${esc(a.category)}</span>${a.date ? `<span class="ac-date">${fmtDate(a.date)}</span>` : ''}</div>
         <p class="ac-title">${esc(a.title)}</p>
-        <p class="ac-author">— ${esc(a.author)}</p>
+        ${a.author ? `<p class="ac-author">— ${esc(a.author)}</p>` : ''}
       </div>
     </div>`;
   }).join('');
@@ -2162,7 +2243,7 @@ function openPdfViewer(id) {
   if (!a) return;
   document.getElementById('pdf-info-cat').textContent    = a.category;
   document.getElementById('pdf-info-title').textContent  = a.title;
-  document.getElementById('pdf-info-author').textContent = a.author + ' · ' + fmtDate(a.date);
+  document.getElementById('pdf-info-author').textContent = [a.author, fmtDate(a.date)].filter(Boolean).join(' · ');
   document.getElementById('pdf-iframe').src              = a.pdf;
   pdfViewerReturnRoute = 'articles';
   updatePdfBackLabel();
@@ -2196,9 +2277,20 @@ document.querySelectorAll('#articles-controls .filter-btn').forEach(btn => {
    visible to other visitors. See the note shown in the upload form.
 ══════════════════════════════════════════ */
 const SAMPLE_ARCHIVE = [
-  // Curated archive documents go here — same shape as SAMPLE_ARTICLES:
+  // Curated archive documents — same shape as SAMPLE_ARTICLES:
   // { id, category: 'Article'|'Research Paper'|'Testimony', author, date,
-  //   previewImg, pdf, title, excerpt }
+  //   previewImg, pdf | url, title, excerpt }
+  // `url` = hosted elsewhere; opens in a new tab instead of the PDF viewer.
+  {
+    id: 'a-report-2003-en',
+    category: 'Research Paper',
+    author: 'National Committee for Investigation of the Truth about the Jeju April 3 Incident',
+    date: '2003-10-15',
+    previewImg: 'Archive/preview-report-2003-en.png',
+    url: 'https://transitionaljusticedata.org/public_files/reportTCID213.pdf',
+    title: 'The Jeju 4·3 Incident Investigation Report (English edition)',
+    excerpt: 'The official government investigation report on the Jeju 4·3 Incident, adopted in October 2003. It is the main reference for the facts of 4·3 and for later legal decisions.',
+  },
 ];
 
 const CK_ARCHIVE_DB_NAME = 'ck_archive_db';
@@ -2260,9 +2352,9 @@ async function renderArchive() {
     <div class="article-card" onclick="openArchiveItem('${esc(a.id)}', ${a.isUpload ? 'true' : 'false'})">
       ${thumb}
       <div class="ac-body">
-        <div class="ac-meta"><span class="ac-cat">${esc(a.category)}</span><span class="ac-date">${fmtDate(a.date)}</span></div>
+        <div class="ac-meta"><span class="ac-cat">${esc(a.category)}</span>${a.date ? `<span class="ac-date">${fmtDate(a.date)}</span>` : ''}</div>
         <p class="ac-title">${esc(a.title)}</p>
-        <p class="ac-author">— ${esc(a.author)}</p>
+        ${a.author ? `<p class="ac-author">— ${esc(a.author)}</p>` : ''}
       </div>
     </div>`;
   }).join('');
@@ -2279,12 +2371,13 @@ async function openArchiveItem(id, isUpload) {
     item = SAMPLE_ARCHIVE.find(a => a.id === id);
   }
   if (!item) return;
+  if (item.url) { window.open(item.url, '_blank', 'noopener'); return; }
   const fileURL = item.file || item.pdf;
   const isPDF   = item.fileType === 'application/pdf' || /\.pdf($|\?)/i.test(fileURL || '');
   if (isPDF && fileURL) {
     document.getElementById('pdf-info-cat').textContent    = item.category;
     document.getElementById('pdf-info-title').textContent  = item.title;
-    document.getElementById('pdf-info-author').textContent = item.author + ' · ' + fmtDate(item.date);
+    document.getElementById('pdf-info-author').textContent = [item.author, fmtDate(item.date)].filter(Boolean).join(' · ');
     document.getElementById('pdf-iframe').src               = fileURL;
     pdfViewerReturnRoute = 'archive';
     updatePdfBackLabel();

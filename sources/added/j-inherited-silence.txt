@@ -1,0 +1,104 @@
+[[page 1]]
+Inherited Silence: Intergenerational Trauma and
+Collective Memory in the Legacy of the Jeju 4.3
+Incident
+Mass violence does not end when the killing stops. Psychologists and sociologists
+increasingly argue that its deepest effects are carried in memory, family relationships, and
+the unspoken rules of a community. Collective trauma, as Kai Erikson (1976) described it, is
+damage to the social tissue itself: the bonds of trust and shared life that make a community a
+community. Intergenerational trauma extends this idea across time, suggesting that people
+who never witnessed the violence can still inherit its emotional weight.
+The Jeju 4.3 Incident is a striking case for this field. Between 1948 and 1954, state
+suppression on Jeju Island killed an estimated 25,000 to 30,000 people, roughly one tenth of
+the island's population (Jeju 4·3 Peace Foundation, n.d.). What distinguishes Jeju is the
+decades of enforced silence that followed. Survivors were forbidden from mourning publicly,
+which meant that grief went unprocessed for two generations.
+I. Collective Trauma and the Politics of Silence
+Trauma research holds that recovery depends on acknowledgment: the survivor's suffering
+must be recognized as real and as wrong. After 1948, Jeju residents were denied exactly
+this. The state labeled the island politically suspect, and under the system of guilt by
+association (yeon-jwa-je), relatives of victims faced surveillance and exclusion from public
+employment (Kim, 2014). Speaking about the dead could endanger the living.
+The result was what scholars call a culture of silence. Families held memorials in secret,
+often on the same night for many households, and parents avoided telling children what had
+happened to their relatives. Jeffrey Alexander and colleagues (2004) argue that trauma
+becomes "cultural" only when a society can narrate it publicly. On Jeju, that narration was
+blocked, so the wound remained private, unresolved, and unspoken.
+II. The Transmission of Trauma Across Generations
+If trauma is never discussed, it does not disappear. Research on children of Holocaust
+survivors, for example, shows that parental trauma can shape children's anxiety, attachment,
+and sense of safety, even when the story itself is withheld. Yehuda and Lehrner (2018)
+review evidence that these effects may involve both psychosocial pathways, such as
+parenting shaped by fear, and possible epigenetic mechanisms, though they stress that the
+biological findings remain preliminary and contested.
+The psychosocial pathway is the most relevant to Jeju. Parents who had survived the
+massacres taught their children to stay quiet, avoid politics, and never draw attention to
+themselves. This protective instinct made sense under surveillance, but it also passed fear
+down the generations. Children grew up sensing a loss they could not name, a pattern the
+table below summarizes.
+[[page 2]]
+Mechanism How it operates Jeju 4.3 example
+Enforced silence Grief cannot be processed
+publicly
+Secret, unrecognized memorials
+Protective
+parenting
+Fear is taught as survival Children told to avoid politics
+Social stigma Identity is tied to "guilt" Yeon-jwa-je and the "Red Island"
+label
+Missing narrative Younger generations lack
+context
+Official history suppressed until the
+2000s
+Table 1: Mechanisms of intergenerational trauma and their Jeju equivalents.
+III. Postmemory and the Role of Culture
+Marianne Hirsch (2012) coined the term "postmemory" for the relationship that later
+generations have with traumatic events they did not experience but know through stories,
+images, and silences. For Jeju's younger generations, postmemory formed through
+fragments: a missing grandfather, a burned village site, an anniversary no one explained.
+[[page 3]]
+Culture became an important space where these fragments could be spoken. Writers and
+artists on Jeju worked to preserve the history long before the state officially acknowledged it,
+and the island's literary tradition kept the memory alive when public discussion was
+impossible. This tradition reached a global audience when Han Kang, whose novel We Do
+Not Part (2021) engages with the 4.3 Incident, received the Nobel Prize in Literature in 2024.
+Literature allowed a wound that could not be discussed politically to be approached through
+imagination and empathy.
+IV. Truth-Seeking as Psychological Repair
+Democratization created the conditions for healing. Hun Joon Kim (2014) traces how
+decades of activism by survivors, bereaved families, and civil society eventually produced
+the 2000 Special Act on the Jeju 4·3 Incident and the 2003 state apology by President Roh
+Moo-hyun. From a psychological perspective, these were not only political events. Official
+acknowledgment gave survivors the public validation that trauma research identifies as
+essential to recovery: the state was finally saying that what happened to them was real and
+wrong.
+Later measures built on this foundation. Retrials beginning in 2020 acquitted survivors who
+had been wrongly convicted by military courts, and revisions to the Special Act opened a
+path to compensation. Institutions such as the Jeju 4·3 Peace Park and the island's
+trauma-healing programs now give grief a public place. Memorials, in this sense, work as
+shared mental health infrastructure, allowing mourning that was once forced into private
+spaces to become collective.
+Conclusion
+Seen through the lens of psychology and memory studies, the Jeju 4.3 Incident shows that
+violence leaves two kinds of casualties: those who died, and those who were prevented from
+grieving them. The decades of enforced silence turned a single historical event into a
+multigenerational wound, carried through fear, stigma, and absent stories.
+The island's gradual recovery suggests that healing requires more than the passage of time.
+It requires truth, recognition, and spaces where memory can be shared safely. For societies
+confronting their own histories of mass violence, Jeju offers a lesson that is as psychological
+as it is political: what a community is not allowed to remember, its children may be left to
+carry.
+Bibliography
+● Alexander, J. C., Eyerman, R., Giesen, B., Smelser, N. J. and Sztompka, P. (2004)
+Cultural Trauma and Collective Identity. Berkeley: University of California Press.
+● Erikson, K. (1976) Everything in Its Path: Destruction of Community in the Buffalo
+Creek Flood. New York: Simon & Schuster.
+● Hirsch, M. (2012) The Generation of Postmemory: Writing and Visual Culture After
+the Holocaust. New York: Columbia University Press.
+● Jeju 4·3 Peace Foundation (n.d.) Fact and Truth of the Jeju 4·3 Incident. Available at:
+http://jeju43peace.org/historytruth/fact-truth/
+[[page 4]]
+● Kim, H. J. (2014) The Massacres at Mt. Halla: Sixty Years of Truth Seeking in South
+Korea. Ithaca: Cornell University Press.
+● Yehuda, R. and Lehrner, A. (2018) 'Intergenerational transmission of trauma effects:
+putative role of epigenetic mechanisms', World Psychiatry, 17(3), pp. 243–257.
