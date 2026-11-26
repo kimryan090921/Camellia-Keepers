@@ -147,8 +147,9 @@ async function pdfToText(file) {
   try {
     pdfjs = await import('pdfjs-dist/legacy/build/pdf.mjs');
     pkgDir = path.dirname(createRequire(import.meta.url).resolve('pdfjs-dist/package.json'));
-  } catch {
-    fail('Reading PDFs needs a one-time setup. Run:\n  cd rag && npm install\nthen try again.');
+  } catch (e) {
+    fail('Could not load the PDF reader (' + (e?.message || e).toString().split('\n')[0] + ').\n' +
+         'Run the one-time setup:  cd rag && npm install   (Node.js 22.13 or newer), then try again.');
   }
   const doc = await pdfjs.getDocument({
     data: new Uint8Array(fs.readFileSync(file)),

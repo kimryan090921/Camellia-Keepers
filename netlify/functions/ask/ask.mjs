@@ -74,7 +74,10 @@ export default async (req, context) => {
 
   const started = Date.now();
   try {
-    const [qvec] = await embed([question]);
+    // For a QR-site question like "What happened here?", search with the site's name too,
+    // so the documents about that place are found.
+    const searchText = site ? `${site.name.en} (${site.name.ko}): ${question}` : question;
+    const [qvec] = await embed([searchText]);
     const found = groupHits(search(index, qvec));
     const { system, user } = buildPrompt({ question, lang, site, hits: found, index });
     const { text: answer, web } = await chat(system, user, found.length);
